@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrasal Verbs</title>
+    <link rel="icon" href="phrasal-verbs.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="120x120" href="phrasal-verbs.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="phrasal-verbs.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="phrasal-verbs.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="phrasal-verbs.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body class="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white">
+    <h1 class="text-5xl font-bold mb-10">Phrasal Verbs</h1>
+    <div class="w-full max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg mt-4">
+        <p id="question" class="text-xl mb-4">Loading...</p>
+        <div id="options" class="mb-4"></div>
+        <input type="hidden" id="correctAnswer" value="">
+        
+        <button id="submit" onclick="submitAnswer()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded hidden">
+            Submit
+        </button>
+        <button id="next" onclick="getRandomQuestion()" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded hidden">
+            Next Question
+        </button>
+        <div id="status" class="mt-4 text-center"></div>
+    </div>
+    <footer class="w-full text-center py-4  mt-4">
+        <p class="text-gray-400 text-sm">Created by Imoberdorf Martin</p>
+    </footer>
+</body>
+</html>
