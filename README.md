@@ -15,6 +15,16 @@ Make sure you have the latest version of Python installed.
 ```bash
   git clone <repo-url>
 ```
+```bash
+  cd ./An-Easy-Way-to-Master-Phrasal-Verbs
+
+```
+```bash
+  cd ./Backend
+```
+```bash
+  npm i
+```
 
 
 ## Author
